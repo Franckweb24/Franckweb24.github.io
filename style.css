@@ -1,0 +1,214 @@
+
+@font-face 
+{
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    font-family: 'open_sansregular';
+    max-width: 950px;
+    margin: auto;
+}
+
+.conteneur
+{
+    display: flex;
+    margin-top: 10px;
+    border: 1px black solid;
+}
+main
+{
+    display:flex;
+    width: 30%;
+    flex-direction: column;
+    background-color: rgb(253,216,53);
+    
+}
+main h3
+{
+    font-size: 22px;
+    color: rgb(253,216,53);
+}
+
+.titre-gauche
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: rgb(121,85,72);
+}
+.loisirs
+{
+    padding-bottom: 20px;
+}
+ul
+{
+    list-style-type: none;
+}
+.icones
+{
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+.icones-loisir
+{
+    width: 45px;
+    height: 45px;
+    color: rgb(121,85,72);
+    font-size: 2em;
+    border: 2px solid rgb(121,85,72);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.moi
+{
+    padding-bottom: 50%;
+    text-align: justify;
+}
+#texte-moi
+{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.photo
+{
+    border: solid 3px rgb(249,168,37);
+    margin-top: 30px;
+    margin-left: 37px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+a
+{
+    color: rgb(33,33,33);
+}
+a:hover
+{
+    color: rgb(221,44,0);
+}
+
+/*----partie droite----*/
+
+header
+{
+   padding-left: 10%;
+   padding-bottom: 40px;
+   padding-top: 30px;
+}
+p
+{
+    font-size: 1em;
+}
+h1
+{
+    font-size: 3em;
+    color: rgb(253,216,53);
+}
+.nom
+{
+    color: black;
+}
+.underline
+{
+    border-bottom: 2px solid rgb(253,216,53);
+}
+
+.h3-droit
+{
+    padding-left: 1.2em;
+    font-size: 1.4em;   
+}
+.icone-titre
+{   
+    color: rgb(253,216,53);
+    padding-left: 10px;
+    font-size: 1.8em;
+}
+.icone-gauche-date
+{
+    margin-right: 20px;
+    font-size: 1.3em;
+    color: rgb(253,216,53);
+}
+.point-gauche
+{
+    margin-right: 20px;
+    font-size: 0.7em;
+    color: rgb(253,216,53);
+}
+
+.titre-droite
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: start;
+    border-bottom: 2px solid rgb(253,216,53);
+    margin-left: 30px;
+    margin-right: 30px;
+} 
+article
+{
+    margin-left: 6em;
+    padding-left: 2.5em;
+}
+.article-1
+{
+    padding-right: 1em;
+    padding-left: 4.5em;
+}
+.article-2
+{
+    padding-left: 2em;
+}
+.recommandations
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1.8em;
+
+}
+.recommandation-1
+{
+    padding-left: 50px;
+}
+.section-recommandations
+{
+    margin-top: 50px;
+}
+.contenu-droit
+{
+    display: inline-flex;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+.icone-date
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-left: 45px;
+}   
+
+
