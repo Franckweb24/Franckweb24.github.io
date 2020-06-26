@@ -23,7 +23,6 @@ body
 .conteneur
 {
     display: flex;
-    margin-top: 10px;
     border: 1px black solid;
 }
 main
@@ -63,7 +62,7 @@ ul
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
 }
 
 .icones-loisir
@@ -81,7 +80,7 @@ ul
 
 .moi
 {
-    padding-bottom: 50%;
+    padding-bottom: 30%;
     text-align: justify;
 }
 #texte-moi
@@ -210,5 +209,50 @@ article
     align-items: baseline;
     padding-left: 45px;
 }   
+
+/*----Media-Queries----*/
+
+@media all and  (max-width: 1024px)
+
+{
+    body
+    {
+        width: auto;
+    }
+
+    .conteneur
+    {
+        margin: auto;
+        width: auto;
+        flex-direction: column;
+    }
+
+    main
+    {
+        margin: auto;
+        width: auto;
+    }
+
+    aside
+    {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    section
+    {
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .photo
+    {
+        margin: auto;
+    }
+    
+   
+}
 
 
