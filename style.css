@@ -12,6 +12,10 @@
     font-style: normal;
 
 }
+html
+{
+    font-size: 14px;
+}
 
 body
 {
@@ -23,19 +27,21 @@ body
 .conteneur
 {
     display: flex;
-    border: 1px black solid;
+    box-shadow: 0.03rem 0.03rem 0.09rem rgb(97,97,97);
 }
-main
+
+aside
 {
-    display:flex;
-    width: 30%;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: rgb(253,216,53);
-    
+    width: 30rem;
 }
-main h3
+
+aside h3
 {
-    font-size: 22px;
+    font-size: 1.4rem;
     color: rgb(253,216,53);
 }
 
@@ -52,6 +58,9 @@ main h3
 }
 ul
 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
     list-style-type: none;
 }
 .icones
@@ -85,9 +94,10 @@ ul
 }
 #texte-moi
 {
-    padding-left: 35px;
-    padding-right: 35px;
+   padding-left: 1rem;
+   padding-right: 1rem;
 }
+
 
 .photo
 {
@@ -99,6 +109,10 @@ ul
     height: 200px;
     overflow: hidden;
 }
+image
+{
+    
+}
 a
 {
     color: rgb(33,33,33);
@@ -108,22 +122,29 @@ a:hover
     color: rgb(221,44,0);
 }
 
-/*----partie droite----*/
+/*-----------------------partie droite-------------------------*/
+
+main
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 header
 {
-   padding-left: 10%;
-   padding-bottom: 40px;
-   padding-top: 30px;
+   
 }
-p
-{
-    font-size: 1em;
-}
+
 h1
 {
-    font-size: 3em;
+    padding-left: 3.1rem;
+    font-size: 3rem;
     color: rgb(253,216,53);
+}
+h2
+{
+    padding-left: 3.1rem;
 }
 .nom
 {
@@ -136,25 +157,25 @@ h1
 
 .h3-droit
 {
-    padding-left: 1.2em;
-    font-size: 1.4em;   
+    padding-left: 1.2rem;
+    font-size: 1.4rem;   
 }
 .icone-titre
 {   
     color: rgb(253,216,53);
-    padding-left: 10px;
-    font-size: 1.8em;
+    padding-left: 1rem;
+    font-size: 1.8rem;
 }
 .icone-gauche-date
 {
     margin-right: 20px;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     color: rgb(253,216,53);
 }
 .point-gauche
 {
     margin-right: 20px;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     color: rgb(253,216,53);
 }
 
@@ -164,8 +185,7 @@ h1
     align-items: baseline;
     justify-content: start;
     border-bottom: 2px solid rgb(253,216,53);
-    margin-left: 30px;
-    margin-right: 30px;
+    padding-left: 2rem;
 } 
 article
 {
@@ -194,7 +214,7 @@ article
 }
 .section-recommandations
 {
-    margin-top: 50px;
+    margin-bottom: 1rem;
 }
 .contenu-droit
 {
@@ -210,7 +230,7 @@ article
     padding-left: 45px;
 }   
 
-/*----Media-Queries----*/
+/*-------------------------Media-Queries----------------------*/
 
 @media all and  (max-width: 1024px)
 
@@ -230,7 +250,22 @@ article
     main
     {
         margin: auto;
-        width: auto;
+    }
+
+    .photo
+    {
+        margin: auto;
+    }
+
+    ul
+    {
+       
+    }
+
+    .loisirs
+    {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     aside
@@ -238,19 +273,17 @@ article
         display: flex;
         margin: auto;
         flex-direction: column;
+        width: 100%;
     }
 
     section
     {
-        width: auto;
+        display: flex;
+        width: 100%;
         margin: auto;
         flex-direction: column;
     }
 
-    .photo
-    {
-        margin: auto;
-    }
     
    
 }
