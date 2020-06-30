@@ -242,19 +242,21 @@ article
 {
     body
     {
-        width: auto;
+        width: 100%;
     }
 
     .conteneur
     {
         margin: auto;
-        width: auto;
+        width: 100%;
         flex-direction: column;
     }
 
-    main
+    aside
     {
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
     .photo
@@ -273,19 +275,21 @@ article
         margin-right: 0px;
     }
 
-    aside
+    .icones
     {
         display: flex;
+        justify-content: space-around;
+    }
+
+    main
+    {
         margin: auto;
-        flex-direction: column;
         width: 100%;
     }
 
     section
     {
         display: flex;
-        width: 100%;
-        margin: auto;
         flex-direction: column;
     }
 
