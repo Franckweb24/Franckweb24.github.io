@@ -19,6 +19,7 @@ html
 
 body
 {
+    display: flex;
     font-family: 'open_sansregular';
     max-width: 950px;
     margin: auto;
@@ -60,8 +61,12 @@ ul
 {
     padding-left: 1rem;
     padding-right: 1rem;
-    text-align: center;
     list-style-type: none;
+}
+
+li
+{
+    padding-top: 1rem;
 }
 .icones
 {
@@ -259,7 +264,7 @@ article
 
     ul
     {
-       
+       text-align: center;
     }
 
     .loisirs
