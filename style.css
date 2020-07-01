@@ -179,6 +179,7 @@ p
 
 .icone-date
 {
+    
     margin-top: 1.2rem;
 }
 
@@ -211,8 +212,7 @@ article
 }
 .article-1
 {
-    padding-right: 1em;
-    padding-left: 4.5em;
+    
 }
 .article-2
 {
@@ -334,8 +334,15 @@ article
         text-align: center;
     }
 
-    
-   
 }
+
+ /*---------------------Medias Queries---------------------*/
+
+ @media all and (max-width: 800px)
+
+{
+
+}
+
 
 
