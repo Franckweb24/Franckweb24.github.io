@@ -103,7 +103,6 @@ li
    padding-right: 1rem;
 }
 
-
 .photo
 {
     border: solid 3px rgb(249,168,37);
@@ -111,12 +110,10 @@ li
     width: 180px;
     height: 180px;
     overflow: hidden;
-    margin-top: 2rem;
+    margin-top: 2.8rem;
+    margin-bottom: 0rem;
 }
-image
-{
-    
-}
+
 a
 {
     color: rgb(33,33,33);
@@ -137,18 +134,23 @@ main
 
 header
 {
-   
+   margin-bottom: 3.8rem;
 }
 
 h1
 {
+    display: flex;
     padding-left: 3.1rem;
     font-size: 3rem;
     color: rgb(253,216,53);
+    margin-bottom: 0rem;
+    padding-top: 3.5rem;
 }
 h2
 {
+    margin-top: 0rem;
     padding-left: 3.1rem;
+    padding-bottom: 2.6rem;
 }
 .nom
 {
