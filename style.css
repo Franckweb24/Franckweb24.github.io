@@ -179,7 +179,6 @@ p
 
 .icone-date
 {
-    
     margin-top: 1.2rem;
 }
 
@@ -212,7 +211,7 @@ article
 }
 .article-1
 {
-    
+    margin-left: 8rem;
 }
 .article-2
 {
@@ -239,14 +238,14 @@ article
 {
     display: inline-flex;
     align-items: flex-start;
-    padding-top: 10px;
+    padding-top: 0.8rem; 
 }
 .icone-date
 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    padding-left: 45px;
+    padding-left: 3rem; 
 }   
 
 /*-------------------------Media-Queries----------------------*/
