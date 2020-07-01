@@ -329,6 +329,7 @@ article
         flex-direction: column;
         margin: auto;
         padding-right: 9em;
+        margin: auto;
     }
 
     section
@@ -336,7 +337,6 @@ article
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: auto;
     }
 
     .recommandations
