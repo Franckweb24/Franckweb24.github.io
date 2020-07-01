@@ -107,12 +107,11 @@ li
 .photo
 {
     border: solid 3px rgb(249,168,37);
-    margin-top: 30px;
-    margin-left: 37px;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     overflow: hidden;
+    margin-top: 2rem;
 }
 image
 {
@@ -261,7 +260,8 @@ article
 
     .photo
     {
-        margin: auto;
+       margin: auto;
+       margin-top: 1.6rem;
     }
 
     ul
