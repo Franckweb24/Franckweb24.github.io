@@ -289,6 +289,7 @@ article
     .titre-droite
     {
         margin: auto;
+        padding-left: 0rem;
     }
 
     ul
@@ -321,8 +322,7 @@ article
     }
     .article-1
     {
-        padding-left: 1rem;
-        text-align: center;
+        padding-left: 0rem;
     }
     .contenu-droit
     {
@@ -343,6 +343,7 @@ article
     {
         display: flex;
         flex-direction: column;
+        padding-right: 2rem;
     }
 
     .recommandation-1
@@ -350,6 +351,8 @@ article
         padding-right: 3.5rem;
         padding-top: 2rem;
     }
+
+
 
 }
 
