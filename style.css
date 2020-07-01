@@ -336,6 +336,7 @@ article
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin: auto;
     }
 
     .recommandations
@@ -352,7 +353,7 @@ article
         padding-top: 2rem;
     }
 
-
+    
 
 }
 
