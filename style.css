@@ -282,6 +282,11 @@ article
     {
        margin: auto;
     }
+    h1
+    {
+       padding-left: 0.7em;
+    }
+
     .titre-droite
     {
         margin: auto;
