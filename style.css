@@ -278,6 +278,14 @@ article
        margin: auto;
        margin-top: 1.6rem;
     }
+    header
+    {
+       margin: auto;
+    }
+    .titre-droite
+    {
+        margin: auto;
+    }
 
     ul
     {
@@ -295,17 +303,30 @@ article
         display: flex;
         justify-content: space-around;
     }
+    .icone-date
+    {
+        margin: auto;
+        padding-left: 6em;
+    }
 
     main
     {
+        display: flex;
         margin: auto;
         width: 100%;
+    }
+    .contenu-droit
+    {
+        flex-direction: column;
+        margin: auto;
+        padding-right: 9em;
     }
 
     section
     {
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     
