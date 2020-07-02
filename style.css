@@ -255,16 +255,51 @@ article
 {
     body
     {
+        display: flex;
         width: 100%;
     }
 
     .conteneur
     {
-        margin: auto;
+        display: flex;
         width: 100%;
         flex-direction: column;
     }
-
+    
+    header
+    {
+        order: ;
+    }
+    .photo
+    {
+        order: ;
+    }
+    .contact
+    {
+        order: ;
+    }
+    .moi
+    {
+        order: ;
+    }
+    .formation
+    {
+        order: ;
+    }
+    .experience
+    {
+        order: ;
+    }
+    .section-recommandations
+    {
+        order: ;
+    }
+    .loisirs
+    {
+        order: ;
+    }
+        
+    /*-----------------------------------------------------*/
     aside
     {
         display: flex;
@@ -277,30 +312,10 @@ article
        margin: auto;
        margin-top: 1.6rem;
     }
-    header
-    {
-       margin: auto;
-    }
-    h1
-    {
-       padding-left: 0.7em;
-    }
-
-    .titre-droite
-    {
-        margin: auto;
-        padding-left: 0rem;
-    }
 
     ul
     {
        text-align: center;
-    }
-
-    .loisirs
-    {
-        margin-left: 0px;
-        margin-right: 0px;
     }
 
     .icones
@@ -308,34 +323,26 @@ article
         display: flex;
         justify-content: space-around;
     }
-    .icone-date
-    {
-        margin: auto;
-        padding-left: 6em;
-    }
 
     main
     {
         display: flex;
-        margin: auto;
         width: 100%;
     }
     .article-1
     {
+        padding-right: 30%;
         padding-left: 0rem;
     }
     .contenu-droit
     {
         flex-direction: column;
-        margin: auto;
-        padding-right: 9em;
     }
 
     section
     {
         display: flex;
         flex-direction: column;
-        text-align: center;
     }
 
     .recommandations
@@ -343,37 +350,18 @@ article
     {
         display: flex;
         flex-direction: column;
-        padding-right: 2rem;
+        margin: auto;
     }
 
     .recommandation-1
     {
-        padding-right: 3.5rem;
+        padding-left: 0rem;
         padding-top: 2rem;
     }
 
     
 
 }
-
-@media all and  (max-width: 600px)
-
-{
-    .titre-droite
-    {
-       margin: auto;
-       text-align: center;
-    }
-
-    .contenu-droit
-    {
-        margin: auto;
-        text-align: center;
-    }
-
-
-}
-
 
 
 
