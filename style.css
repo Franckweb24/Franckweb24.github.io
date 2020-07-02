@@ -265,13 +265,15 @@ article
         width: 100%;
         flex-direction: column;
     }
-    
-    header
+    /*---------------------------------------------------------*/
+    main >
     {
+        flex: ;
         order: ;
     }
-    .photo
+    aside > .photo
     {
+        
         order: ;
     }
     .contact
@@ -331,9 +333,20 @@ article
     }
     .article-1
     {
+        margin-left: 3rem;
         padding-right: 60%;
         padding-left: 0rem;
     }
+
+    article 
+    {
+        margin-left: 0.5rem;
+    }
+    .article-2
+    {
+        margin-left: 1rem;
+    }
+
     .contenu-droit
     {
         flex-direction: column;
@@ -350,7 +363,7 @@ article
     {
         display: flex;
         flex-direction: column;
-        padding-left: 9rem;
+        padding-left: 3rem;
     }
 
     .recommandation-1
