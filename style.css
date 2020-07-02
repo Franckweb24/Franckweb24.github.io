@@ -350,7 +350,7 @@ article
     {
         display: flex;
         flex-direction: column;
-        margin: auto;
+        padding-left: 9rem;
     }
 
     .recommandation-1
