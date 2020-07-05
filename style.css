@@ -288,13 +288,14 @@ article
 
     .my
     {
-        text-align: center;
         order: 1;
         padding-bottom: 2rem;
     }
-    h1
+    h1, h2
     {
+        text-align: center;
         padding-bottom: 2rem;
+        margin-right: 2rem;
     }
     .photo
     {
