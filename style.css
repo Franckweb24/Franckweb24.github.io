@@ -1,17 +1,7 @@
 
-@font-face 
-{
-    font-family: 'open_sansregular';
-    src: url('fonts/OpenSans-Regular-webfont.eot');
-    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
-         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
-         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
+/*---------------------balises générales----------------*/
+
 html
 {
     font-size: 14px;
@@ -19,127 +9,48 @@ html
 
 body
 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
-    font-family: 'open_sansregular';
-    max-width: 950px;
-    margin: auto;
 }
-
 .conteneur
 {
-    display: flex;
-    border: solid 0.002rem rgb(117,117,117);
+    width: 950px;
+    margin: auto;
+    border: solid 1px rgb(224,224,224);
 }
 
-aside
+.conteneur-1
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: rgb(253,216,53);
-    width: 30rem;
-}
-
-aside h3
-{
-    font-size: 1.4rem;
-    color: rgb(253,216,53);
-}
-
-.titre-gauche
-{
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-align: center;
-    background-color: rgb(121,85,72);
-}
-.loisirs
-{
-    padding-bottom: 20px;
-}
-ul
-{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    list-style-type: none;
-}
-
-li
-{
-    padding-top: 1rem;
-}
-.icones
-{
-    padding-right:30px;
-    padding-left:30px;
-    padding-bottom: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
 }
 
-.icones-loisir
+/*------------------------header-----------------------*/
+
+header
 {
-    width: 45px;
-    height: 45px;
-    color: rgb(121,85,72);
-    font-size: 2em;
-    border: 2px solid rgb(121,85,72);
-    border-radius: 50%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.moi
-{
-    padding-bottom: 30%;
-    text-align: justify;
-}
-#texte-moi
-{
-   padding-left: 1rem;
-   padding-right: 1rem;
+    
 }
 
 .photo
 {
+    text-align: center;
+    background-color: rgb(253,216,53);
+    width: 256px;
+    padding-top: 2rem;
+}
+.photo img
+{
     border: solid 3px rgb(249,168,37);
     border-radius: 50%;
-    width: 180px;
     height: 180px;
-    overflow: hidden;
-    margin-top: 2.8rem;
-    margin-bottom: 0rem;
-}
-
-a
-{
-    color: rgb(33,33,33);
-}
-a:hover
-{
-    color: rgb(221,44,0);
-}
-
-/*-----------------------partie droite-------------------------*/
-
-main
-{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-header
-{
-   margin-bottom: 3.8rem;
+    width: 180px;
 }
 
 h1
 {
-    display: flex;
     padding-left: 3.1rem;
     font-size: 3rem;
     color: rgb(253,216,53);
@@ -151,6 +62,7 @@ h2
     margin-top: 0rem;
     padding-left: 3.1rem;
 }
+
 .nom
 {
     color: black;
@@ -158,6 +70,102 @@ h2
 .underline
 {
     border-bottom: 2px solid rgb(253,216,53);   
+}
+
+/*-----------------------partie gauche-----------------------*/
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(253,216,53);
+    width: 350px;
+}
+
+.titre-gauche
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background-color: rgb(121,85,72);
+}
+
+aside h3
+{
+    font-size: 1.4rem;
+    color: rgb(253,216,53);
+}
+
+ul
+{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    list-style-type: none;
+}
+
+li
+{
+    padding-top: 1rem;
+}
+
+a
+{
+    color: rgb(33,33,33);
+}
+a:hover
+{
+    color: rgb(221,44,0);
+}
+
+.moi
+{
+    padding-bottom: 30%;
+    text-align: justify;
+}
+
+#texte-moi
+{
+   padding-left: 1rem;
+   padding-right: 1rem;
+}
+
+.loisirs
+{
+    
+}
+
+.icones
+{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones-loisir
+{
+    width: 1.8em;
+    height: 1.8em;
+    color: rgb(121,85,72);
+    font-size: 2em;
+    border: 2px solid rgb(121,85,72);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*----------------------partie droite----------------------*/
+
+main
+{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 p
@@ -246,7 +254,8 @@ article
     flex-direction: row;
     align-items: baseline;
     padding-left: 3rem; 
-}   
+}  
+
 
 /*-------------------------Media-Queries----------------------*/
 
@@ -265,56 +274,43 @@ article
         width: 100%;
         flex-direction: column;
     }
-    /*---------------------------------------------------------*/
-    main >
-    {
-        flex: ;
-        order: ;
-    }
-    aside > .photo
-    {
-        
-        order: ;
-    }
-    .contact
-    {
-        order: ;
-    }
-    .moi
-    {
-        order: ;
-    }
-    .formation
-    {
-        order: ;
-    }
-    .experience
-    {
-        order: ;
-    }
-    .section-recommandations
-    {
-        order: ;
-    }
-    .loisirs
-    {
-        order: ;
-    }
-        
-    /*-----------------------------------------------------*/
-    aside
+    .conteneur-1
     {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    .photo
+    .entete
     {
-       margin: auto;
-       margin-top: 1.6rem;
+        flex-direction: column;
     }
 
+    .my
+    {
+        text-align: center;
+        order: 1;
+        padding-bottom: 2rem;
+    }
+    h1
+    {
+        padding-bottom: 2rem;
+    }
+    .photo
+    {
+        width: 100%;
+        order: 2;
+        padding-bottom: 2rem; 
+    }
+   
+    aside
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        order: 2;
+    }
+    
     ul
     {
        text-align: center;
@@ -330,6 +326,8 @@ article
     {
         display: flex;
         width: 100%;
+        order: 1;
+        margin: auto;
     }
     .article-1
     {
@@ -372,9 +370,6 @@ article
         padding-top: 2rem;
     }
 
-    
-
 }
-
 
 
