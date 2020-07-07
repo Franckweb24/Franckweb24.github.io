@@ -216,21 +216,26 @@ p
     border-bottom: 0.1rem solid rgb(253,216,53);
     margin-left: 3rem;
     margin-right: 2.5rem;
+    margin-top: 3rem;
 } 
+
 article
 {
     margin-left: 5.8rem;
     padding-left: 2.5rem;
 }
+
 .article-1
 {
     margin-left: 8rem;
     padding-right: 9.5rem; 
 }
+
 .article-2
 {
     padding-left: 2rem;
 }
+
 .recommandations
 {
     display: flex;
@@ -238,22 +243,25 @@ article
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 1.8rem;
-
 }
+
 .recommandation-1
 {
     padding-left: 4rem;
 }
+
 .section-recommandations
 {
     margin-bottom: 1rem;
 }
+
 .contenu-droit
 {
     display: inline-flex;
     align-items: flex-start;
     padding-top: 0.8rem; 
 }
+
 .icone-date
 {
     display: flex;
