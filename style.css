@@ -57,7 +57,7 @@ header
 
 h1
 {
-    padding-left: 0.8rem;
+    padding-left: 0.9rem;
     font-size: 3rem;
     color: rgb(253,216,53);
     margin-bottom: 0rem;
@@ -66,7 +66,7 @@ h1
 h2
 {
     margin-top: 0rem;
-    padding-left: 0.8rem;
+    padding-left: 0.9rem;
 }
 
 .nom
@@ -93,6 +93,7 @@ aside
 {
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
+    margin-bottom: 0rem;
     text-align: center;
     background-color: rgb(121,85,72);
 }
@@ -106,14 +107,15 @@ aside h3
 
 ul
 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     list-style-type: none;
 }
 
 li
 {
-    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 a
@@ -132,8 +134,9 @@ a:hover
 
 #texte-moi
 {
-   padding-left: 1rem;
-   padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .icones
@@ -141,6 +144,7 @@ a:hover
     padding-right: 2rem;
     padding-left: 2rem;
     padding-bottom: 1rem;
+    padding-top: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -310,11 +314,7 @@ article
     {
         padding-top: 4rem;
     }
-    #texte-moi
-    {
-        padding-bottom: 1.5rem;
-    }
-   
+    
     aside
     {
         display: flex;
@@ -326,6 +326,11 @@ article
     ul
     {
        text-align: center;
+    }
+
+    #texte-moi
+    {
+        padding-bottom: 1.5rem;
     }
 
     .icones
